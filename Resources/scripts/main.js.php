@@ -13,6 +13,8 @@
 			$(this).removeClass('active');
 		});	
 		$('#se-' + id).addClass('active');
+		
+		$('#search-word').focus();
 	}
 
 	$(document).ready(function() {
