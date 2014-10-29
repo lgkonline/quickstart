@@ -1,0 +1,28 @@
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+
+<id>quickstart</id>
+<name>Quick Start</name>
+<version>1.0</version>
+<publisher>lgk</publisher>
+<url>http://lgkonline.com</url>
+<icon>images/icon.png</icon>
+<copyright>2014 by lgk</copyright>
+
+<window>
+<id>initial</id>
+<title>Quick Start</title>
+<url>app://index.php</url>
+<width>700</width>
+<max-width>3000</max-width>
+<min-width>0</min-width>
+<height>500</height>
+<max-height>3000</max-height>
+<min-height>0</min-height>
+<fullscreen>false</fullscreen>
+<resizable>false</resizable>
+<chrome scrollbars="true">true</chrome>
+<maximizable>false</maximizable>
+<minimizable>false</minimizable>
+<closeable>true</closeable>
+</window>
+</ti:app>

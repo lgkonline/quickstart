@@ -1,0 +1,59 @@
+This snapshot was automatically generated on
+Wed, 12 Aug 2009 23:53:35 +0000
+
+Version: 5.3.1-dev
+Branch: HEAD
+Build: Release_TS
+
+Built-in Extensions
+===========================
+Core
+bcmath
+calendar
+com_dotnet
+ctype
+date
+ereg
+filter
+ftp
+hash
+iconv
+json
+mcrypt
+mysqlnd
+odbc
+pcre
+Reflection
+session
+SPL
+sqlite3
+standard
+tidy
+tokenizer
+zip
+zlib
+libxml
+dom
+Phar
+SimpleXML
+wddx
+xml
+xmlreader
+xmlwriter
+xsl
+
+
+Dependency information:
+Module: php-cgi.exe
+===========================
+	msvcr80.dll
+
+Module: php.exe
+===========================
+	msvcr80.dll
+
+Module: php_gd2.dll
+===========================
+	msvcr80.dll
+	msvcr80d.dll
+
