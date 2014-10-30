@@ -50,12 +50,25 @@ $search_engines_default = 0;
 					<div class="input-group">
 						<input id="search-word" type="text" name="<?php echo $search_engines[$search_engines_default]['attr']; ?>" spellcheck="false" class="input-lg form-control" autofocus>
 						<span class="input-group-btn">
-							<button type="submit" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-search"></span></button>
+							<button id="search-submit" type="submit" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-search"></span></button>
 						</span>
 					</div>
 				</form>
 			</div>
 		</div><!-- search-area -->
+		
+		<div class="container">
+			<div id="db-content"></div>
+			
+			<form id="add_to_db">
+				<?php foreach ($search_engines_attr as $attr) : ?>
+				<input type="text" name="<?php echo $attr; ?>" placeholder="<?php echo $attr; ?>" class="form-control">
+				<?php endforeach; ?>
+				<button type="submit" class="btn btn-default">Add</button>
+			</form>
+			
+			<button type="button" class="btn btn-danger" id="remove_db">remove DB</button>
+		</div>
 
 		<script src="lib/jquery/jquery-1.11.1.min.js"></script>
 		<script src="lib/bootstrap/js/bootstrap.min.js"></script>

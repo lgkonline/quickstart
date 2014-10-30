@@ -8,6 +8,12 @@ body {
   padding-top: 20px;
 }
 #search-area {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 40px;
+}
+#search-area #search-submit {
+  border-radius: 3px;
+}
+#search-area #search-word {
+  color: #fff;
 }
